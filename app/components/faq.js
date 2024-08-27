@@ -307,7 +307,7 @@ const FAQ = () => {
             /> 
 
             {isOtherWayUnfolded && (
-              <div className="answerLeft" style={{ top: "55%"}}>
+              <div className="answerLeft" style={{ top: "50%"}}>
                 <h1>HackHolyoke has many ways to participate!
                    You can be a mentor or judge for the event as well.
                     Sign up here if you're interested in becoming a mentor,
