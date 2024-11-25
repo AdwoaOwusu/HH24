@@ -12,11 +12,8 @@ import Laura from "../../assets/speakers/Laura.jpg"
 import Mai from "../../assets/speakers/Mai.jpg"
 import Olivia from "../../assets/speakers/Olivia.jpg"
 import Ziyin from "../../assets/speakers/Ziyin.JPG"
-import Wolfram from "../../assets/speakers/wolframalpha.png"
-import Breakpoint from "../../assets/speakers/Breakpoint.png"
-
-
-
+import noprofile from "../../assets/speakers/noprofile.png"
+import breakpoint from "../../assets/speakers/breakpoint.JPG"
 
 
 const speakerCards=[
@@ -48,16 +45,16 @@ const speakerCards=[
   />,
 
   <SpeakerCard 
-  speakerPic={Wolfram}
-  speakerName={"Adam Essemaal"}
+  speakerPic={noprofile}
+  speakerName={"Adam Essemaali"}
   speakerPosition={"Wolfram Language expert"}
   speakerDesc={"An interactive workshop where you'll learn how to leverage resource functions in the Wolfram Language to quickly prototype and deploy a project. We'll guide you through building a simple demo, demonstrating how the Wolfram Language can streamline the process from concept to production. Whether you're new to Wolfram or looking to enhance your skills, this session will equip you with the tools to bring your ideas to life efficiently "}
   speakerTitle={"The Power of Resource Functions: How They Work, Why They're Useful, and How to Use Them to Build a Simple Application."}
   />,
 
   <SpeakerCard
-  speakerPic={Breakpoint}
-  speakerName={ "Nafisa Bashar Anmul, Kathryn Spencer, Sadichchha Maharjan, Lynn Do  "}
+  speakerPic={breakpoint}
+  speakerName={ "Nafisa Bashar Anmul, Kathryn Spencer, Sadichchha Maharjan  "}
   speakerPosition={"Breakpoint"}
   speakerDesc={"Have you ever wondered how all the face filters work on Snapchat and Instagram? Join us for a hands-on workshop where we’ll combine computer vision and creative coding using Mediapipe ML libraries in p5.js! You’ll learn to use hand and pose tracking to build interactive projects that respond to real-time gestures and face movements. Whether you're new to coding or experienced, this workshop will show you how to create your own immersive applications. Get ready to dive into creative coding and see how fun and accessible working with computer vision can be!"}
   speakerTitle={"Dive into Creative Coding with Medipipe and p5.js"}
